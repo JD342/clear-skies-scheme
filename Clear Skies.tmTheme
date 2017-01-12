@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<dict>
+
+  <key>name</key>     <string>Clear skies</string>
+
+  <key>settings</key> <array>
+
+    <dict>
+        <key>settings</key> <dict>
+            <key>background</key>                <string>#ffffff</string>
+            <key>foreground</key>                <string>#342342</string>
+            <key>caret</key>                     <string>#0080ff</string>
+            <key>highlight</key>                 <string>#edf4fc</string>
+            <key>findHighlight</key>             <string>#edf4fc</string>
+            <key>findHighlightForeground</key>   <string>#0080ff</string>
+            <key>invisibles</key>                <string>#bfbfbf</string>
+            <key>lineHighlight</key>             <string>#edf4fc</string>
+            <key>selection</key>                 <string>#edf4fc</string>
+            <key>selectionBorder</key>           <string>#ffffff</string>
+            <key>selectionForeground</key>       <string>#0080ff</string>
+            <key>tagsOptions</key>               <string>foreground</string>
+            <key>tagsForeground</key>            <string>#2172c4</string>
+            <key>bracketsForeground</key>        <string>#0080ff</string>
+            <key>bracketsOptions</key>           <string>foreground</string>
+            <key>bracketContentsForeground</key> <string>#0080ff</string>
+            <key>bracketContentsOptions</key>    <string>foreground</string>
+            <key>guide</key>                     <string>#fefefe</string>
+            <key>stackGuide</key>                <string>#fefefe</string>
+            <key>activeGuide</key>               <string>#0080ff</string>
+        </dict>
+    </dict>
+
+    <dict>
+        <key>name</key>     <string>Tag, Operator, Punctuation</string>
+        <key>scope</key>    <string>meta.tag, keyword.operator.assignment, keyword.operator.comparison, keyword.operator.accessor, keyword.operator.logical, punctuation, meta.brace, meta.function-call.without-arguments.js, keyword.operator.ternary, meta.delimiter, keyword.operator.arithmetic, keyword.operator.spread, storage.type.function.arrow</string>
+        <key>settings</key> <dict>
+            <key>foreground</key> <string>#aaa</string>
+            <key>fontStyle</key>  <string></string>
+        </dict>
+    </dict>
+
+    <dict>
+        <key>name</key>     <string>Tag attribute</string>
+        <key>scope</key>    <string>entity.other.attribute-name</string>
+        <key>settings</key> <dict>
+            <key>fontStyle</key> <string>italic</string>
+        </dict>
+    </dict>
+
+    <dict>
+        <key>name</key>     <string>String</string>
+        <key>scope</key>    <string>string</string>
+        <key>settings</key> <dict>
+            <key>foreground</key> <string>#777</string>
+            <key>background</key> <string>#F9F9F9</string>
+        </dict>
+    </dict>
+
+    <dict>
+        <key>name</key>     <string>Comment, Preprocessed</string>
+        <key>scope</key>    <string>comment, punctuation.definition.comment, meta.tag.preprocessor, meta.tag.sgml, keyword.doctype</string>
+        <key>settings</key> <dict>
+            <key>foreground</key> <string>#CCC</string>
+            <key>fontStyle</key>  <string></string>
+        </dict>
+    </dict>
+
+    <dict>
+        <key>name</key>     <string>Keyword</string>
+        <key>scope</key>    <string>keyword, storage.type</string>
+        <key>settings</key> <dict>
+            <key>fontStyle</key>  <string>bold italic</string>
+            <key>foreground</key> <string>#000</string>
+        </dict>
+    </dict>
+
+    <dict>
+        <key>name</key>     <string>Important</string>
+        <key>scope</key>    <string>variable.language.this, support.type, constant.language</string>
+        <key>settings</key> <dict>
+            <key>foreground</key> <string>#000</string>
+            <key>fontStyle</key>  <string>bold</string>
+        </dict>
+    </dict>
+
+    <dict>
+        <key>name</key>     <string>Special</string>
+        <key>scope</key>    <string>keyword.other, punctuation.dollar, entity.name.function, variable.function, constant</string>
+        <key>settings</key> <dict>
+            <key>foreground</key> <string>#342342</string>
+            <key>fontStyle</key>  <string></string>
+        </dict>
+    </dict>
+
+    <dict>
+        <key>name</key>  <string>Highlighted</string>
+        <key>scope</key> <string>wordhighlight</string>
+        <key>settings</key>
+        <dict>
+            <key>background</key> <string>#edf4fc</string>
+        </dict>
+    </dict>
+
+  </array>
+</dict>
+</plist>
