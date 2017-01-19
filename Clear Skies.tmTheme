@@ -87,7 +87,7 @@
 
       <dict>
           <key>name</key>     <string>Special</string>
-          <key>scope</key>    <string>keyword.other, punctuation.dollar, entity.name.function, variable.function, constant</string>
+          <key>scope</key>    <string>keyword.other, punctuation.dollar, entity.name.function, variable.function, string.regexp constant, meta.group.regexp keyword, string.regexp keyword</string>
           <key>settings</key> <dict>
               <key>foreground</key> <string>#342342</string>
               <key>fontStyle</key>  <string></string>
