@@ -34,7 +34,7 @@
 
       <dict>
           <key>name</key>     <string>Tag, Operator, Punctuation</string>
-          <key>scope</key>    <string>meta.tag, keyword.operator.assignment, keyword.operator.comparison, keyword.operator.accessor, keyword.operator.logical, punctuation, meta.brace, meta.function-call.without-arguments.js, keyword.operator.ternary, meta.delimiter, keyword.operator.arithmetic, keyword.operator.spread, storage.type.function.arrow</string>
+          <key>scope</key>    <string>meta.tag, keyword.operator.assignment, keyword.operator.comparison, keyword.operator.accessor, keyword.operator.logical, punctuation, meta.brace, keyword.operator.ternary, meta.delimiter, keyword.operator.arithmetic, keyword.operator.spread, storage.type.function.arrow, keyword.operator.relational, meta.function-call.method.without-arguments meta.group.braces</string>
           <key>settings</key> <dict>
               <key>foreground</key> <string>#aaa</string>
               <key>fontStyle</key>  <string></string>
