@@ -3,7 +3,7 @@
 <plist version="1.0"> <dict>
 
     <key>author</key>   <string>Nicola Fiori (JD342)</string>
-    <key>name</key>     <string>Clear skies</string>
+    <key>name</key>     <string>Clear Skies</string>
 
     <key>settings</key> <array>
 
@@ -42,8 +42,8 @@
       </dict>
 
       <dict>
-          <key>name</key>     <string>Tag attribute</string>
-          <key>scope</key>    <string>entity.other.attribute-name</string>
+          <key>name</key>     <string>Attribute</string>
+          <key>scope</key>    <string>entity.other.attribute-name, source.css support.type</string>
           <key>settings</key> <dict>
               <key>fontStyle</key> <string>italic</string>
           </dict>
